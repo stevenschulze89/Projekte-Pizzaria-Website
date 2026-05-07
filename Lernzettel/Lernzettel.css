@@ -17,4 +17,5 @@ b {
   font-size: larger;
   color: crimson;
   background-color: lightgray;
+  border: 1px solid black;
 }
