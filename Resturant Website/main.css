@@ -6,12 +6,32 @@
 body {
   font-style: italic;
 }
-.header {
+
+.hero {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("schools_MVdSxpebVbCje6Sd8KoN_files_hero.webp");
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: large;
+  color: white;
+}
+
+.hero-img {
+  max-width: 800px;
+  padding: 2px;
+}
+
+.Title {
+  font-size: 8rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .absatz {
@@ -19,20 +39,21 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-top: 5px;
+  font-size: 1.5rem;
+  margin-bottom: 80px;
 }
 
-.Button {
+.hero-button {
+  font-size: 24px;
+  color: red;
   display: flex;
-  flex-direction: row;
+  flex-direction: flex;
   justify-content: center;
+  justify-items: center;
   align-items: center;
-  font-size: larger;
-  color: aliceblue;
-}
-
-.img {
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
+  text-align: center;
+  border: 1px solid red;
+  border-radius: 10px;
+  width: max-content;
+  margin-left: 320px;
 }
