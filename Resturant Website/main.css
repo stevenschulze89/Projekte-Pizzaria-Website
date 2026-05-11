@@ -1,10 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-style: monospace;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
 }
 
 .hero {
@@ -19,7 +23,6 @@ body {
   align-items: center;
   justify-content: center;
   justify-items: center;
-  color: white;
   flex-wrap: wrap;
 }
 
@@ -34,7 +37,7 @@ body {
 }
 
 .Title {
-  font-size: 8rem;
+  font-size: 4rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: row;
@@ -42,6 +45,9 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  line-height: 4rem;
+  font-family: "Lobster", sans-serif;
+  margin-bottom: 5px;
 }
 
 .absatz {
@@ -49,7 +55,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-bottom: 50px;
   color: rgb(199, 199, 199);
 }
@@ -75,10 +81,36 @@ body {
   color: red;
 }
 
-@media screen and (max-width: 600px) {
-  .hero {
-    width: 100%;
+@media screen and (min-width: 600px) {
+  .Title {
+    font-size: 4rem;
   }
+  .absatz {
+    font-size: 1.2rem;
+  }
+  .hero-button {
+    border-radius: 1px;
+    background-color: red;
+    color: white;
+    width: 250px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .Title {
+    font-size: 4rem;
+  }
+  .absatz {
+    font-size: 1.2rem;
+  }
+  .hero-button {
+    border-radius: 1px;
+    background-color: red;
+    color: white;
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 340px) {
   .Title {
     font-size: 4rem;
   }
@@ -89,6 +121,8 @@ body {
     border-radius: 1px;
     background-color: red;
     color: white;
-    width: 250px;
+    padding:
+      1,
+      5rem 2rem;
   }
 }
