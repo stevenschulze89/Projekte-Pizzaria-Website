@@ -67,8 +67,7 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-  width: 250px;
-  height: 40px;
+  padding: 10px;
   background-color: red;
   text-decoration: none;
   border: 1px solid red;
@@ -85,10 +84,11 @@ body {
   min-width: 100vw;
   height: 5rem;
   display: flex;
+  justify-content: center;
   flex-direction: row;
-  justify-content: space-evenly;
   text-align: center;
   align-items: center;
+  gap: 3rem;
   position: fixed;
   top: 0;
 }
@@ -115,7 +115,7 @@ body {
     border-radius: 1px;
     background-color: red;
     color: white;
-    width: 250px;
+    padding: 10px;
   }
 }
 @media screen and (min-width: 1000px) {
@@ -129,13 +129,13 @@ body {
     border-radius: 1px;
     background-color: red;
     color: white;
-    width: 250px;
+    padding: 10px;
   }
 }
 
 @media screen and (min-width: 340px) {
   .Title {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .absatz {
     font-size: 1rem;
@@ -144,6 +144,11 @@ body {
     border-radius: 1px;
     background-color: red;
     color: white;
-    width: 200;
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  .nav {
+    font-size: 1rem;
   }
 }
