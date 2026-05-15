@@ -23,7 +23,7 @@ body {
   text-align: center;
   align-items: center;
   gap: 3rem;
-  position: fixed;
+  position: static;
   top: 0;
 }
 
@@ -111,15 +111,18 @@ body {
 }
 
 #header2 {
-  text-decoration: 1px solid #ff3030;
-  margin-bottom: 10px;
+  text-decoration: underline 1px var(--primery-color);
   text-transform: uppercase;
+  margin: 2rem 0 1.5rem 0;
+  width: max-content;
 }
 
-.about.absatz {
+.about-content {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+
+  margin-left: 1rem;
+  width: 40%;
 }
 
 .button-about {
@@ -127,14 +130,15 @@ body {
   color: #ffffff;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  width: max-content;
   border-radius: 5px;
   padding: 10px;
   background-color: var(--primery-color);
   text-decoration: none;
   border: 1px solid var(--primery-color);
   transition: 0.5s;
+  margin: 1rem 0 0 0;
 }
 
 .button-about:hover {
