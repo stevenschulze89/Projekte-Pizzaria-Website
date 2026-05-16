@@ -12,7 +12,7 @@ body {
 
   --primery-color: #ff3030;
 }
-
+/* Navigationleiste*/
 .navi {
   background-color: #1a1a1a;
   width: 100vw;
@@ -37,7 +37,7 @@ body {
   color: var(--primery-color);
   transition: 0.5s;
 }
-
+/* Hero sektion*/
 .hero {
   background-size: cover;
   background-position: center;
@@ -115,7 +115,8 @@ body {
 .about-content {
   display: grid;
   align-items: center;
-  width: 100%;
+  width: 75%;
+  margin: 0 0 0 7.2rem;
 }
 
 #header2 {
