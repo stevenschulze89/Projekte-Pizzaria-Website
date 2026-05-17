@@ -107,8 +107,7 @@ body {
 
 /* about-section*/
 .about {
-  min-height: 100vh;
-  min-height: 100wv;
+  max-height: 100vh;
   display: grid;
   gap: 1rem;
   grid-template-columns: 1fr 1fr;
@@ -117,7 +116,7 @@ body {
 
 /*about-container*/
 .about-content {
-  max-width: 620px;
+  max-height: 50vh;
   margin-bottom: 1.5rem;
   margin-left: 8rem;
 }
