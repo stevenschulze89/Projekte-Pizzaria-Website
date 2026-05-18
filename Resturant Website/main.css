@@ -154,9 +154,6 @@ body {
   text-align: center;
 }
 
-.Pic1 {
-}
-
 /*Media-Queries*/
 @media screen and (min-width: 340px) {
   .Title {
