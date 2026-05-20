@@ -152,6 +152,11 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+  width: 100%;
+}
+
+.big-picture {
+  width: 100%;
 }
 
 /*Media-Queries*/
