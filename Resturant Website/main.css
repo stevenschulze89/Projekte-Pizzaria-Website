@@ -273,6 +273,7 @@ body {
 }
 
 .mail:hover {
+  color: var(--primery-text-color);
 }
 
 /*Media-Queries*/
