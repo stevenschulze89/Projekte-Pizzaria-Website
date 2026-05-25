@@ -201,6 +201,11 @@ body {
   width: 100%;
   gap: 2rem;
 }
+
+.header {
+  font-size: 2rem;
+}
+
 .tage {
   justify-content: center;
   align-items: center;
@@ -209,7 +214,7 @@ body {
 .wrapper {
   display: flex;
   justify-content: center;
-  gap: 8rem;
+  gap: 12rem;
 }
 
 .infos {
@@ -262,18 +267,32 @@ body {
   text-align: center;
 }
 
-.button .kontakt {
+.button.kontakt {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-.mail {
+.button.kontakt {
+  background-color: var(--primery-color);
+  transition: 0.5s;
+  color: var(--primery-text-color);
+}
+
+.button.kontakt:hover {
+  background-color: transparent;
   color: var(--primery-color);
 }
 
-.mail:hover {
+.button.mail {
+  background-color: transparent;
+  color: var(--primery-color);
+  transition: 0.5s;
+}
+
+.button.mail:hover {
   color: var(--primery-text-color);
+  background-color: var(--primery-color);
 }
 
 /*Media-Queries*/
@@ -361,7 +380,7 @@ body {
   }
 
   .wrapper {
-    gap: 9rem;
+    gap: 11rem;
   }
 }
 
