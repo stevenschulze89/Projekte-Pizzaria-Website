@@ -261,38 +261,7 @@ body {
 
 .button-container {
   display: flex;
-  gap: 0.5rem;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.button.kontakt {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.button.kontakt {
-  background-color: var(--primery-color);
-  transition: 0.5s;
-  color: var(--primery-text-color);
-}
-
-.button.kontakt:hover {
-  background-color: transparent;
-  color: var(--primery-color);
-}
-
-.button.mail {
-  background-color: transparent;
-  color: var(--primery-color);
-  transition: 0.5s;
-}
-
-.button.mail:hover {
-  color: var(--primery-text-color);
-  background-color: var(--primery-color);
+  flex-direction: row;
 }
 
 /*Media-Queries*/
@@ -305,7 +274,7 @@ body {
     font-size: 0.8rem;
     margin-bottom: 30px;
   }
-  .button {
+  .button-hero {
     border-radius: 2px;
     background-color: var(--primery-color);
     color: #ffffff;
@@ -327,7 +296,7 @@ body {
   .absatz {
     font-size: 1.2rem;
   }
-  .button {
+  .button-hero {
     border-radius: 1px;
     background-color: var(--primery-color);
     color: #ffffff;
@@ -349,7 +318,7 @@ body {
   .absatz {
     font-size: 1.5rem;
   }
-  .button {
+  .button-hero {
     background-color: var(--primery-color);
     color: #fff;
     padding: 15px;
