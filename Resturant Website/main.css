@@ -47,7 +47,7 @@ body {
 .hero {
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  min-height: 100vh;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("schools_MVdSxpebVbCje6Sd8KoN_files_hero.webp");
@@ -319,7 +319,7 @@ body {
   }
 
   .party-people {
-    height: 100%;
+    max-width: 100%;
   }
 }
 
