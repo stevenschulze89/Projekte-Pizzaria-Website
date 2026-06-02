@@ -314,6 +314,7 @@ body {
 .copy {
   display: flex;
   flex-direction: column;
+  color: var(--primery-text-color);
 }
 
 /*Media-Queries*/
@@ -418,7 +419,7 @@ body {
   }
 
   .party-people {
-    max-width: 40%;
+    max-width: 25rem;
   }
 
   #footer-section {
@@ -485,7 +486,12 @@ body {
   }
 
   .button-container {
+    display: flex;
     flex-direction: row;
+  }
+
+  .party-people {
+    max-width: 60%;
   }
 }
 
