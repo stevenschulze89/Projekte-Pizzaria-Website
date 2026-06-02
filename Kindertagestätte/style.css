@@ -11,8 +11,8 @@ body {
   color: #ffffff;
   font-family: "Inter", sans-serif;
 
-  --primery-color: #ff3030;
-  --primery-text-color: #ddd;
+  --primery-color: #e76c07;
+  --primery-text-color: #7de409;
 }
 /* Navigationleiste*/
 .navie {
@@ -29,7 +29,7 @@ body {
 }
 
 .nav {
-  color: #ffffff;
+  color: var(--primery-text-color);
   text-decoration: none;
   text-transform: uppercase;
   font-size: 2rem;
@@ -89,7 +89,7 @@ body {
 /* Link- Button-hero section*/
 .button {
   font-size: 20px;
-  color: #ffffff;
+  color: var(--primery-text-color);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -207,6 +207,9 @@ body {
 .tage {
   justify-content: center;
   align-items: center;
+  color: var(--primery-text-color);
+}
+.time {
   color: var(--primery-text-color);
 }
 .wrapper {
