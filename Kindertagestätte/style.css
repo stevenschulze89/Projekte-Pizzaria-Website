@@ -89,6 +89,7 @@ body {
 }
 /* Link- Button-hero section*/
 .button-hero {
+  display: none;
   font-size: 20px;
   color: var(--primery-text-color);
   display: flex;
